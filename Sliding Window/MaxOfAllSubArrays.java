@@ -45,6 +45,7 @@ public class MaxOfAllSubArrays {
         int ri = 0;
         // store index
         Deque<Integer> q = new ArrayDeque<>();
+        
         for (int i = 0; i < n; i++) {
             // remove number out of range k
             if (!q.isEmpty() && q.peek() == i - k) {

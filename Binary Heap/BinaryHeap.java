@@ -122,7 +122,10 @@ public class BinaryHeap {
             }
             
         }
+
     }
+
+    
     private void swap(int a, int b){
         int temp  = heapArray[a];
         heapArray[a]=heapArray[b];
