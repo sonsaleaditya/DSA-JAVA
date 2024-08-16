@@ -16,7 +16,7 @@ public class PalindromPartition {
     public static void main(String[] args) {
         PalindromPartition p = new PalindromPartition();
 
-        String s = "adidt";
+        String s = "ababbbabbababa";
 
         System.out.println("Min cuts needed : " + p.mcm(s, 0, s.length() - 1));
     }
@@ -27,6 +27,7 @@ public class PalindromPartition {
         }
 
         int min = Integer.MAX_VALUE;
+
         for (int k = i; k < j; k++) {
             int temp = mcm(s, i, k) + mcm(s, k + 1, j) + 1;
             min = Math.min(min, temp);
