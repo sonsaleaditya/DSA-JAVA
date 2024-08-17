@@ -51,7 +51,7 @@
      *
      * @param root   The root node of the current subtree
      * @param result An object to store the maximum path sum
-     * @return The maximum path sum for the current subtree
+     * @return The maximum path sum for the current subtreee
      */
     int maxSum(Node root, Result result) {
         // Base case: If the node is null, return 0 as it contributes nothing to the sum
