@@ -1,6 +1,6 @@
 public class EqualSubset {
     public static void main(String[] args) {
-        int arr[] = {1,5,5,11};
+        int arr[] = {4,3,2,1};
         
         // Check if the array can be partitioned into two subsets with equal sum
         if (isEqualSubset(arr)) {
