@@ -1,8 +1,8 @@
 public class ZeroOneKnapSackUsingTopDown {
     public static void main(String[] args) {
         // Sample weights and values of items
-        int[] wt = {1, 3, 4, 5};
-        int[] val = {1, 4, 5, 7};
+        int[] wt = {10,8,6};
+        int[] val = {1, 7,9};
         
         // Maximum weight capacity of the knapsack
         int w = 7;
