@@ -2,7 +2,8 @@ public class CountOfSubset {
     public static void main(String[] args) {
         // Define the array and the target sum
         int arr[] = {2, 3, 5, 6, 8, 10};
-        int sum = 10;
+        
+        int sum = 7;
 
         // Call the countOfSubset method and print the result
         System.out.println("Count of Subsets is: " + countOfSubset(arr, sum));
