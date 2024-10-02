@@ -19,7 +19,7 @@ To convert "abdgba" to "abcgdba", you need 1 operation:
 
 public class Change_S1_To_S2_CRUD {
     public static void main(String[] args) {
-        String s1 = "abdgba", s2 = "abcdba";
+        String s1 = "heap", s2 = "pea";
         Solution obj = new Solution();
 
         System.out.println("Min operations : " + obj.editDistance(s1, s2));

@@ -29,6 +29,7 @@ class Solution {
     
     // Function implementing Kadane's Algorithm
     int kadanesAlgo(int[] arr) {
+        // Input: arr = [-2,1,-3,4,-1,2,1,-5,4]
         // Initialize the sum with the first element of the array
         int sum = arr[0];
         // Initialize maxEnding with the first element of the array

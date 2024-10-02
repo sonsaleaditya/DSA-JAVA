@@ -2,6 +2,7 @@ public class CountNumberOfSubsetWIthGivenDiff {
     public static void main(String[] args) {
         // Define the array and the desired difference
         int arr[] = {1, 5 ,3 ,4 ,2};
+       
         int diff = 3;
 
         // Calculate the sum of all elements in the array

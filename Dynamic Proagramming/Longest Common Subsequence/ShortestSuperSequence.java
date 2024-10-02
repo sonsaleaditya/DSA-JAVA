@@ -16,7 +16,7 @@ The string "abcd" is the shortest supersequence that contains both "abcd" and "a
 
 class ShortestSuperSequence {
     public static void main(String[] args) {
-        String s1 = "abcd", s2 = "acd";
+        String s1 = "aditya", s2 = "adiyta";
         System.out.println("shortest supersequece is : " + scs(s1, s2));
     }
 

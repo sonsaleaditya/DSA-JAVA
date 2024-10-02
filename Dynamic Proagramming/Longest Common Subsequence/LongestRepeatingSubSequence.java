@@ -24,7 +24,26 @@ public class LongestRepeatingSubSequence {
             }
         }
 
+        int i = m, j = n;
+        StringBuilder sb = new StringBuilder();
 
+        while (i > 0 && j > 0) {
+            if (s1.charAt(i - 1) == s2.charAt(j - 1)) {
+                sb.append(s1.charAt(i-1));
+                i--;
+                j--;
+            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+               // sb.append(s1.charAt(i-1));
+                i--;
+            } else {
+               // sb.append(s2.charAt(j-1));
+                j--;
+            }
+        }
+
+       
+
+        System.out.println(sb.reverse().toString());
         // The string is built backwards, so reverse it before returning
         return dp[m][n];
     }
